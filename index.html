@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <div class="header-cont">
+            <nav>
+                <img src="img.png" width="200px" height="130px">
+                <ul class="link-list">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="intro-div">
+                <p>FULL STACK, PYTHON DEVELOPER</p>
+                <h1>Hello, I am <span>Abhas</span><br>from surat</h1>
+            </div>
+
+        </div>
+    </div>
+    <div class="about-div" id="about">
+        <div class="about-div-cont">
+            <div class="div-profile-image"><img src="abhas.jpg" height="500px" width="480px"></div>
+            <div class="intro-sect">
+                <h1>About Me!</h1>
+                <p>
+                    I am Abhas Sudhir Mahale students in MIT ACSC Alandi. Enthusiastic and motivated technologies with a passion for web development. Graduated with a BCA from Veer Narmad South Gujarat University, I am eager to apply my knowledge and skills to contribute effectively to technology.
+            </p>
+
+            <div class="about-tab-div">
+                <div class="about-link active-link" onclick="openTabContent('skills')">Skills</div>
+                <div class="about-link" onclick="openTabContent('education')">Education</div>
+                <div class="about-link" onclick="openTabContent('certification')">Certification</div>
+            </div>
+
+            <div class="about-tab-content active-content" id="skills">
+                <ul>
+                    <li>
+                        <span>Full Stack Developer</span><br>
+                        Python web-application
+                    </li>
+                    <li>
+                        <span>Backend Dvelopment</span><br>
+                        Django
+                    </li>
+                    <li>
+                        <span>Frontend Development</span><br>
+                        RectJs Javascript HTML CSS
+                    </li>
+                </ul>
+            </div>
+
+            <div class="about-tab-content " id="education">
+                <ul>
+                    <li>
+                        <span>MSC-CA (Computer Application)(Pursuing)</span><br>
+                        SPPU (Maharashtra, Pune)     
+                    </li>
+                    <li>
+                        <span>BCA (Information Technology)</span><br>
+                        VNSGU (Gujarat, Surat)
+                    </li>
+                    <li>
+                        <span>10+2</span><br>
+                        Sungrace School (Gujarat, Surat)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="about-tab-content " id="certification">
+                <ul>
+                    <li>
+                        <span>Full Stack Python Developer Certification</span><br>
+                        Adhyayan It Training and Placement
+                    </li>
+                    <li>
+                        <span>4 Months Course</span><br>
+                        Live hosting of project
+                    </li>
+                    <li>
+                        <span>Project Name</span><br>
+                        Lapkart
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="project-container">
+            <h1 class="caption">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <h2>Project 1</h2>
+                    <p>This Project will help the shopkeeper to ‘Add’ new stock of laptop’s, ‘Update’ 
+                        the initial information of laptop’s, ‘Delete’ out of stock laptop record’s this will
+                        very handy for shopkeeper to maintain product information, authentication 
+                        make record’s protection from malpractices.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div>
+                    <h2>Project 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem repellendus inventore unde, labore quos consectetur laudantium libero autem iste dolorum perspiciatis est vero ea molestiae magnam! Minus, nostrum! Consequatur?
+                    Ullam vero ut reiciendis nobis repellat nulla mollitia corporis tempora cupiditate vitae? Excepturi soluta ducimus officiis iure ab molestias minima sit numquam sapiente, accusantium nihil voluptatem id repellendus explicabo laudantium?
+                    Nobis eum accusantium recusandae nam ab quaerat, culpa nisi placeat labore delectus veniam sint aperiam sed mollitia deserunt soluta? Alias eius nulla possimus impedit amet explicabo suscipit adipisci ad quia.</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div>
+                    <h2>Project 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatem repellendus inventore unde, labore quos consectetur laudantium libero autem iste dolorum perspiciatis est vero ea molestiae magnam! Minus, nostrum! Consequatur?
+                    Ullam vero ut reiciendis nobis repellat nulla mollitia corporis tempora cupiditate vitae? Excepturi soluta ducimus officiis iure ab molestias minima sit numquam sapiente, accusantium nihil voluptatem id repellendus explicabo laudantium?
+                    Nobis eum accusantium recusandae nam ab quaerat, culpa nisi placeat labore delectus veniam sint aperiam sed mollitia deserunt soluta? Alias eius nulla possimus impedit amet explicabo suscipit adipisci ad quia.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="contact-row">
+                <div class="contact-left">
+                    <h2 id="heading-contact">Contact Me!</h2>
+                    <p><img src="email.png" width="25px" height="25px">abhas@gmail.com</p>
+                    <p><img src="phone.png" width="25px" height="25px">7788665544</p>
+                    <div class="social-media-icons">
+                        <a href="https://www.linkedin.com/in/abhasmahale" target="_blank"><img src="linkedin.png" height="30px" width="30px"></a>
+                        <a href="https://www.facebook.com/mahale.abhas" target="_blank"><img src="facebook.png" height="30px" width="30px"></a>
+                        <a href="https://www.instagram.com/abhas_mahale/" target="_blank"><img src="instagram.png" height="30px" width="30px"></a>
+                        <a href="https://github.com/MahaleAbhas" target="_blank"><img src="github.png" height="30px" width="30px"></a>
+                    </div>
+                    <div class="resume-download">
+                        <a href="ABHASRESUME .pdf">Download Resume</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" cols="6" rows="6"></textarea>
+                        <input type="submit" id="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
